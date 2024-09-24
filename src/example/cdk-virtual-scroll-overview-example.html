@@ -1,0 +1,8 @@
+<cdk-virtual-scroll-viewport itemSize="50" class="example-viewport">
+  <!-- <div *cdkVirtualFor="let item of items" class="example-item">{{item}}</div> -->
+  <app-child *cdkVirtualFor="let item of items" [item]="item" />
+</cdk-virtual-scroll-viewport>
+
+<!-- Copyright 2024 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at https://angular.io/license -->
